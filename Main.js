@@ -54,60 +54,60 @@ window.addEventListener("load", () => {
 
           if (form >= 5 && form <= 16) {
             if (id <= 800) {
-              image.src = "../image/sun.svg"
+              image.src = "./image/sun.svg"
             }
             if (id == 801) {
-              image.src = "../image/clouds.svg"
+              image.src = "./image/clouds.svg"
             }
             if (id == 802) {
-              image.src = "../image/Onlyclouds.svg"
+              image.src = "./image/Onlyclouds.svg"
             }
             if (id >= 803) {
-              image.src = "../image/Blackclouds.svg"
+              image.src = "./image/Blackclouds.svg"
             }
             if (id >= 300 && id <= 321) {
-              image.src = "../image/Rainclouda.svg"
+              image.src = "./image/Rainclouda.svg"
             }
             if (id >= 200 && id <= 232) {
-              image.src = "../image/thunderstorm.svg"
+              image.src = "./image/thunderstorm.svg"
             }
             if (id >= 500 && id <= 504) {
-              image.src = "../image/snowy.svg"
+              image.src = "./image/snowy.svg"
             }
             if (id >= 600 && id <= 622) {
-              image.src = "../image/snowflake.svg"
+              image.src = "./image/snowflake.svg"
             }
             if (id >= 701 && id <= 622) {
-              image.src = "../image/mist.svg"
+              image.src = "./image/mist.svg"
             }
           }
           else if (form > 18 && form < 5) {
             if (id <= 800) {
-              image.src = "../image/moon.svg"
+              image.src = "./image/moon.svg"
             }
             if (id == 801) {
-              image.src = "../image/haze.svg"
+              image.src = "./image/haze.svg"
             }
             if (id == 802) {
-              image.src = "../image/Onlyclouds.svg"
+              image.src = "./image/Onlyclouds.svg"
             }
             if (id >= 803) {
-              image.src = "../image/Blackclouds.svg"
+              image.src = "./image/Blackclouds.svg"
             }
             if (id >= 300 && id <= 321) {
-              image.src = "../image/Rainclouda.svg"
+              image.src = "./image/Rainclouda.svg"
             }
             if (id >= 200 && id <= 232) {
-              image.src = "../image/thunderstorm.svg"
+              image.src = "./image/thunderstorm.svg"
             }
             if (id >= 500 && id <= 504) {
-              image.src = "../image/snowy.svg"
+              image.src = "./image/snowy.svg"
             }
             if (id >= 600 && id <= 622) {
-              image.src = "../image/snowflake.svg"
+              image.src = "./image/snowflake.svg"
             }
             if (id >= 701 && id <= 622) {
-              image.src = "../image/mist.svg"
+              image.src = "./image/mist.svg"
             }
           }
 
