@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
   let long;
   let lat;
 
-  let form = formatAMPM(new Date);
+  let form = new Date;
  
 
 
@@ -52,7 +52,7 @@ window.addEventListener("load", () => {
           temp.textContent = Math.round(feels_like - 273)
     
 
-          if (form >= 5 && form <= 16) {
+          if (form.getHours() >= 5  && form.getHours() <= 18) {
             if (id <= 800) {
               image.src = "./image/sun.svg"
             }
@@ -81,7 +81,7 @@ window.addEventListener("load", () => {
               image.src = "./image/mist.svg"
             }
           }
-          else if (form > 18 && form < 5) {
+          else if (form.getHours() > 18 && form.getHours() < 5) {
             if (id <= 800) {
               image.src = "./image/moon.svg"
             }
