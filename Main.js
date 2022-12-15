@@ -11,8 +11,8 @@ window.addEventListener("load", () => {
   let long;
   let lat;
 
-  let form = new Date;
-  let stime = form.getHours() + ":" + form.getMinutes() + ":" + form.getSeconds();
+  let form = new Date().getHours();
+  let stime = form>6 && form<20;
 
 
   if (navigator.geolocation) {
@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
           temp.textContent = Math.round(feels_like - 273)
     
 
-          if (stime >= '05:00:00' && stime <= '18:00:00') {
+          if (stime==true) {
             if (id <= 800) {
               image.src = "./image/sun.svg"
             }
@@ -69,7 +69,7 @@ window.addEventListener("load", () => {
               image.src = "./image/mist.svg"
             }
           }
-          else if (stime > '18:00:00' || stime < '05:00:00') {
+          else{
             if (id <= 800) {
               image.src = "./image/moon.svg"
             }
